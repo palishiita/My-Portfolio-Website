@@ -1,0 +1,248 @@
+body {
+    color: #666;
+    background-color: #cfe8e8; /* Soft pastel blue-green */
+    fill: currentcolor;
+    line-height: 1.5;
+    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+#home {
+    display: flex;
+    align-items: center;
+}
+
+.image-container {
+    flex: 1;
+    margin-right: 30px; /* Adjust this margin as needed */
+}
+
+.homepage {
+    flex: 1;
+    margin-left: 30px; /* Adjust this margin as needed */
+}
+
+header {
+    font-size: 30px;
+    color: #666;
+    margin: 0 auto 50px;
+    background-color: #f2f0eb; /* Light pastel beige */
+    padding: 10px 90px;
+    text-align: left;
+}
+
+h2 {
+    display: block;
+    font-size: 60px;
+    line-height: 30px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    color: #666;
+}
+
+h3, h4, h5 {
+    display: block;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+    text-rendering: optimizeLegibility;
+    color: #666;
+}
+
+main {
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #f2f0eb; /* Light pastel beige */
+    padding: 30px;
+    color: #666;
+    margin-top: 50px;
+}
+
+.center {
+    display: block;
+    margin: 20px auto 50px;
+    width: 500px;
+}
+
+.quote {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.footer_title {
+    font-size: 30px;
+}
+
+.homepage {
+    color: #666;
+    margin: 60px auto;
+    padding: 0 0 10px 200px;
+    text-align: left;
+}
+
+.links {
+    color: #466766; /* Soft pastel teal */
+}
+
+.bulletpts {
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.columns {
+    display: flex;
+    width: 40px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.column {
+    width: 50%;
+    padding: 0 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+svg {
+    fill: #666; /* Change the default fill color for all SVG elements */
+}
+
+section {
+    padding: 80px 0;
+}
+
+.image-container {
+    float: right;
+    margin: 0 150px 0 50px;
+    width: 300px;
+}
+
+/* .image-container img {
+    max-width: 115%;
+    max-height: 100%;
+    border-radius: 45%;
+}
+
+.minimalistic-frame {    
+    border: 2px solid #d3e4c7; 
+    border-radius: 145px;
+    padding: 5px 15px;
+    position: relative;
+}
+
+.image-container {
+    float: right;
+    margin: 0 150px 0 50px;
+    width: 300px;
+} */
+
+.image-container img {
+    max-width: 100%; /* Adjusted to fit within the container */
+    max-height: 100%;
+    border-radius: 0; /* Remove border-radius */
+}
+
+.minimalistic-frame {
+    border: none; /* Remove border */
+    padding: 0; /* Remove padding */
+    position: relative;
+}
+
+.minimalistic-frame::before {
+    content: none; /* Remove pseudo-element */
+}
+
+
+.minimalistic-frame::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 4px solid #e3f7b2; /* Light pastel yellow-green */
+    border-radius: 0; /* Remove border-radius */
+}
+
+
+.animated-text {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.animated-text.show {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.menu-bar {
+    position: sticky;
+    top: 0;
+    background-color: rgb(139, 197, 183); /* Soft pastel blue */
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    height: 80px;
+}
+
+.branding {
+    color: #666;
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu-bar li {
+    float: right;
+    padding: 10px 30px;
+}
+
+.menu-bar a {
+    display: block;
+    color: #63696e;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 350;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    position: relative;
+}
+
+.menu-bar li:hover {
+    background-color: #f2f0eb62; /* Light pastel beige with reduced opacity */
+    border-radius: 10px;
+}
+
+
+#home {
+    display: flex;
+    align-items: center;
+    background-color: #F8D7DA; /* Pastel pink */
+}
+
+#about {
+    background-color: #B4DFE5; /* Pale blue */
+}
+
+#projects {
+    background-color: #E6D3F2; /* Lavender */
+}

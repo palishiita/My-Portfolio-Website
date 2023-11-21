@@ -122,24 +122,17 @@ section {
     width: 300px;
 }
 
-/* .image-container img {
-    max-width: 115%;
-    max-height: 100%;
-    border-radius: 45%;
+.car-image-container {
+    width: 1200px;
+    overflow: hidden;
 }
 
-.minimalistic-frame {    
-    border: 2px solid #d3e4c7; 
-    border-radius: 145px;
-    padding: 5px 15px;
-    position: relative;
+.car-image-container img {
+    width: 400px; /* Set the width of each image */
+    height: auto; /* Maintain the aspect ratio */
+    float: left; /* Display images in a line */
 }
 
-.image-container {
-    float: right;
-    margin: 0 150px 0 50px;
-    width: 300px;
-} */
 
 .image-container img {
     max-width: 100%; /* Adjusted to fit within the container */
